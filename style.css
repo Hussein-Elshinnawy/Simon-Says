@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+}
+body {
+  background-color: #011f3f;
+}
+.board{
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
+.button {
+  margin: 10px;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border: 6px solid black;
+  border-radius: 20%;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: skyblue;
+}
+.green{
+    background-color: greenyellow;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
